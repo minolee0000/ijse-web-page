@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IJSe web site</title>
+        <style>
+            /* div{
+                 margin : 20px; 
+                 font-size: 45px;  
+            } */
+        /* *{
+            font-family: 'Times New Roman', Times, serif;
+        }     */
+        /* div p{
+            background-color: red;
+            font-style: italic;
+        } */
+        /* div>p{
+            background-color: red;
+        } */
+
+        /* div~ p{
+            background-color: red;
+        } */
+        #serif{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 20px;
+            color: red;
+        }
+
+        #sans-serif{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: blueviolet;
+            font-size: 20px;
+        }
+        div{
+            /* margin-top: 10px; */
+            /* margin-right: 20px; */
+            /* margin-bottom: 25px; */
+            /* margin: 10px 20px 25px 50px; */
+            /* margin : 10px 40px 50px; */
+            
+        }
+        div{
+            /* margin: 40px 50px; 
+            border : 5px solid red;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-bottom-style:double ;
+            border-left-color: gray;
+            padding : 10px 20px 10px 375px; */
+
+        }
+        .para:hover{
+            color: red;
+            cursor: pointer;
+        }
+        .para::first-line{
+            color: blueviolet;
+            
+        }
+        </style>
+    </head>
+    <body>
+        <table border ='1' style =" border-collapse: collapse";>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Contact</th>
+                <th>e_mail</th>
+            </tr>
+            <tr>
+                <td>Malsha</td>
+                <td>Minoli</td>
+                <td>0713956921</td>
+                <td>minoli@gmail.com</td>               
+            </tr>
+            <tr>
+                <td>Samin</td>
+                <td>Indula</td>
+                <td>0714708339</td>
+                <td>amin@gmail.com</td>
+            </tr>
+            <table border ="1" style = "border-collapse: collapse";>
+                <tr>
+                    <th>Name</th>
+                    <td>Nimal</td>
+                    <td>Sunil</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Contact</th>
+                    <td>01234569</td>
+                    <td>789456123</td>
+                </tr>
+                <tr>
+                    <td>789456123</td>
+                    <td>123456987</td>
+                </tr>
+            </table>
+        </table>
+
+        <p id = "serif">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            voluptate deleniti tempora odit, tempore ipsam doloribus labore 
+            porro accusantium repellendus perferendis? Voluptatibus provident assumenda harum sapiente cum? Numquam, quos optio?
+        </p>
+       <p id = "sans-serif">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+        voluptate deleniti tempora odit, tempore ipsam doloribus labore 
+        porro accusantium repellendus perferendis? Voluptatibus provident assumenda harum sapiente cum? Numquam, quos optio?
+   </p>
+        <div>
+            Hello IJSE
+        </div>
+
+        <p class ="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+             voluptate deleniti tempora odit, tempore ipsam doloribus labore 
+             porro accusantium repellendus perferendis? Voluptatibus provident assumenda harum sapiente cum? Numquam, quos optio?
+        </p>
+
+        <div><p>Para inside the div</p>
+            <section><p>Para inside the section</p>
+                <span><p>Para inside the span</p></span>
+            </section> 
+        </div>
+        <p>Para after div</p>
+        <p>Para after after div</p>
+    </body>
+</html>
