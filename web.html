@@ -31,6 +31,32 @@
             .nav{
                 width : 70%
             }
+            .home-img{
+                background-color: green;
+                height : 500px;
+                background-image: url('assests/student.png');
+                position: relative;
+            }
+            .home-text{
+                width : 40%;
+                background-color: rgba(236, 240, 241,0.4);
+                padding : 25px 30px;
+                position: absolute;
+                right : 50px;
+                top : 200px;
+                border-radius: 15px;
+                text-align: end;
+            }
+            .home-text>a{
+                border : 1px solid red;
+                padding :10px;
+                border-radius: 20px;
+            }
+            .home-text>a:hover{
+                background-color: red;
+                color : white;
+                cursor : pointer;
+            }
         </style>
     </head>
     <body>
@@ -45,6 +71,19 @@
                     <li>Contact</li>
                 </ul>
             </div>
+        </div>
+        <div class = "body_content">
+             <div class = "home-img">
+                <div class = home-text>
+                    <h1>Welcome to <span style = "color: red">IJSE</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit similique, 
+                        pariatur quo necessitatibus consequuntur quisquam consequatur culpa quae 
+                        illum maiores a animi
+                         architecto quia perferendis quis voluptatibus quasi ullam nostrum!</p>
+                         <a>visit IJSE</a>
+                </div>
+             </div>
+             
         </div>
     </body>
 </html>
