@@ -4,6 +4,8 @@
         <title>Web Development</title>
         <meta name ="keywords" content = "html,css,js,web page">
         <meta name = "description" content = "this is my web page developed by html,css and js">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <style>
             body{
                 margin: 0;
@@ -71,10 +73,45 @@
             }
             @media(max-width : 425px){
                 .header{
-                    display : block;
+                    display: block;
                 }
+                .nav,
                 .logo{
                     width : 100%;
+                    text-align: center;
+                }
+                .home-img{
+                    height : 400px;
+                    background-position: bottom;
+                }
+                .home-text{
+                    top : 20px;
+                    right : 10px;
+                    left : 10px;
+                    width :auto;
+                }
+                .col1,
+                .col2{
+                    width:auto;
+
+                }
+
+                @media(min-width: 425px) and (max-width : 550px){
+                .header{
+                    display: block;
+                }
+                .nav,
+                .logo{
+                    width : 100%;
+                    text-align: center;
+                }
+                .col1,
+                col2{
+                    width : 50%;
+                }
+                .home-text{
+                    top : 50px;
+                    width: auto;
                 }
                 
             }
